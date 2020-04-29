@@ -15,7 +15,7 @@ jobs:
 
       - name: gatsby build
         env:
-          GH_API_KEY: ${{ secrets.GITHUB_API_KEY }}
+          GH_API_KEY: ${{ secrets.GATSBY_API_KEY }}
         run: yarn build
 
       - name: deploy
