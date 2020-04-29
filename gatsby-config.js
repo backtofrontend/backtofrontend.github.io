@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog With GitHub Actions`,
+    title: `Gatsby Starter Blog With GitHub Actions on Custom Domain`,
     author: {
       name: `Kyle Mathews`,
       summary: `who lives and works in San Francisco building useful things.`,
