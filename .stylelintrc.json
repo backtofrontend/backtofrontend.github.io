@@ -1,14 +1,16 @@
 {
     "extends": [
-        "stylelint-config-standard",
         "stylelint-config-sass-guidelines",
+        "stylelint-scss",
         "stylelint-config-rational-order",
-        "stylelint-prettier/recommended"
+        "stylelint-config-prettier"
     ],
+    "defaultSeverity": "error",
     "plugins": [
+        "stylelint-selector-bem-pattern",
+        "stylelint-scss",
         "stylelint-order",
-        "stylelint-config-rational-order/plugin",
-        "stylelint-selector-bem-pattern"
+        "stylelint-config-rational-order/plugin"
     ],
     "rules": {
         "order/properties-order": [],
@@ -19,12 +21,27 @@
                 "empty-line-between-groups": true
             }
         ],
+        "at-rule-no-unknown": null,
+        "declaration-empty-line-before": null,
+        "indentation": [
+            4,
+            {
+                "ignore": ["value"]
+            }
+        ],
+        "max-line-length": [140, { "ignore": ["comments"] }],
+        "max-nesting-depth": 5,
+        "selector-max-compound-selectors": 4,
+        "no-missing-end-of-source-newline": null,
+        "order/properties-alphabetical-order": null,
+        "selector-class-pattern": null,
+        "selector-max-id": 3,
+        "selector-max-universal": 1,
+        "property-no-vendor-prefix": null,
+        "declaration-no-important": null,
         "plugin/selector-bem-pattern": {
-            "componentName": "[A-Z]+",
-            "componentSelectors": {
-                "initial": "^\\.{componentName}(?:-[a-z]+)?$",
-                "combined": "^\\.combined-{componentName}-[a-z]+$"
-            },
+            "componentName": "^[a-z][-a-zA-Z0-9]+$",
+            "componentSelectors": "^\\.{componentName}(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*){0,2}(?:\\[.+\\])?$",
             "utilitySelectors": "^\\.util-[a-z]+$"
         }
     }

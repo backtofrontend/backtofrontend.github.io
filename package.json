@@ -8,7 +8,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
-    "@yarnpkg/pnpify": "^2.0.0-rc.21",
+    "@yarnpkg/pnpify": "^2.0.0-rc.22",
     "eslint": "^6.8.0",
     "gatsby": "^2.21.6",
     "gatsby-image": "^2.4.0",
@@ -35,6 +35,7 @@
     "react-typography": "^0.16.19",
     "stylelint": "^13.3.3",
     "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-scss": "^3.17.1",
     "stylelint-selector-bem-pattern": "^2.1.0",
     "typeface-merriweather": "^0.0.72",
     "typeface-montserrat": "^0.0.75",
@@ -42,6 +43,7 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
     "prettier": "^2.0.5",
@@ -65,7 +67,6 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "stylelint": "stylelint **/*.scss --fix",
     "start": "yarn develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
