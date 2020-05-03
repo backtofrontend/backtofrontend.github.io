@@ -2,15 +2,15 @@ require('ts-node').register({ files: true })
 
 module.exports = {
     siteMetadata: {
-        title: `Gatsby Starter Blog With GitHub Actions on Custom Domain`,
+        title: `Welcome Back to Front End and Beyond`,
         author: {
-            name: `Kyle Mathews`,
-            summary: `who lives and works in San Francisco building useful things.`,
+            name: `Goran Rihter`,
+            summary: `who lives and works in Croatia mostly thinkering with Front End developement and exploring other semi-related interests.`,
         },
-        description: `A starter blog demonstrating what Gatsby can do.`,
-        siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+        description: `A blog exploring the vast world of Front End and other things.`,
+        siteUrl: `https://backtofrontend.com/`,
         social: {
-            twitter: `kylemathews`,
+            twitter: `GRihter`,
         },
     },
     plugins: [
