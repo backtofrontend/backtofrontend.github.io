@@ -1,3 +1,5 @@
+require('ts-node').register({ files: true })
+
 module.exports = {
     siteMetadata: {
         title: `Gatsby Starter Blog With GitHub Actions on Custom Domain`,
@@ -12,6 +14,7 @@ module.exports = {
         },
     },
     plugins: [
+        `gatsby-plugin-typescript`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
