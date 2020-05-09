@@ -25,6 +25,7 @@ const BlogPostTemplate = ({
     location,
 }: BlogPostTemplateProps) => {
     const post = data.markdownRemark
+    console.log('post', post)
     const siteTitle = data.site.siteMetadata.title
     const { previous, next } = pageContext
 
@@ -51,7 +52,7 @@ const BlogPostTemplate = ({
                             marginBottom: rhythm(1),
                         }}
                     >
-                        {post.frontmatter.date}
+                        {post.frontmatter.date} | {post.fields.readingTime.text}
                     </p>
                 </header>
                 <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -108,6 +109,11 @@ export const pageQuery = graphql`
             id
             excerpt(pruneLength: 160)
             html
+            fields {
+                readingTime {
+                    text
+                }
+            }
             frontmatter {
                 title
                 date(formatString: "MMMM DD, YYYY")
