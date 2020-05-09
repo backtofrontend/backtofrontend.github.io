@@ -14775,7 +14775,7 @@ is-whitespace@latest:
   languageName: node
   linkType: hard
 
-"postcss-html@npm:^0.36.0":
+"postcss-html@npm:*, postcss-html@npm:^0.36.0":
   version: 0.36.0
   resolution: "postcss-html@npm:0.36.0"
   dependencies:
