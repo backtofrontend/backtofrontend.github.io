@@ -1,7 +1,7 @@
 ---
-title: Basic Overview - Friendly Neighbourhood Office 365
+title: Basic Overview - Bite Sized Office 365
 date: '2020-05-10T22:12:03.284Z'
-description: 'We will step into the world of Office 365. The following notes result from my reading of the book Office 365 for IT Pros. To explore Office 365 in much greater detail, I highly recommend getting that book. And supporting its original authors :)'
+description: 'We will step into the world of Office 365. The following notes result from my reading of the book Office 365 for IT Pros. To explore Office 365 in much greater detail, I highly recommend getting that book. And supporting its original authors :)'
 ---
 
 ### About the Platform; Office 365
@@ -18,7 +18,7 @@ A cloud service is a resource delivered over the Internet with a subscription fe
 
 Microsoft has data centers established in different regions where Office 365 tenants share one big logical infrastructure comprising hundreds of thousands of servers. They attempt to keep the data as local as possible to adapt to customer preference and accommodate any regulations.
 
-**Security is of key concern** and Microsoft pays a lot of attention to the _physical security_ of the locations and _cyber-security_ for the data stored within. As the infrastructure is continually growing, the live location for tenant data varies. But The users still have uninterrupted access to their information, allowing them to work from anywhere around the globe.
+**Security is of key concern** and Microsoft pays a lot of attention to the _physical security_ of the locations and _cyber-security_ for the data stored within. As the infrastructure is continually growing, the live location for tenant data varies. But the users still have uninterrupted access to their information, allowing them to work from anywhere around the globe.
 
 ### Microsoft 365 Roadmap and Constant Changes
 
