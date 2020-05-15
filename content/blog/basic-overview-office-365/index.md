@@ -1,12 +1,12 @@
 ---
 title: Basic Overview - Bite Sized Office 365
-date: '2020-05-10T22:12:03.284Z'
-description: 'We will step into the world of Office 365. The following notes result from my reading of the book Office 365 for IT Pros. To explore Office 365 in much greater detail, I highly recommend getting that book. And supporting its original authors :)'
+date: '2020-05-15T22:12:03.284Z'
+description: 'We will step into the world of Office 365. The following notes resulted from my reading of the book Office 365 for IT Pros. To explore this topic in much greater detail, I highly recommend getting that book. And supporting its original authors :)'
 ---
 
 ### About the Platform; Office 365
 
-**Office 365** is like the Big Boss. It is the main platform which kindles innovation. With modern productivity, teamwork, and security features. A combination of **AI** stirred with the magic of the **cloud**. Office 365 allows the end-users critical and timesaving potentials. It’s poised by intelligent automation that exists within the service, the invaluable insight to network events, and the mature methods of monitoring needed to detect problems.
+**Office 365** is like the Big Boss. It is THE platform which kindles innovation, with modern productivity, teamwork, and security features. A combination of **AI** stirred with the magic of the **cloud**. Office 365 allows the end-users critical and timesaving potentials. It’s poised by intelligent automation that exists within the service, the invaluable insight to network events, and the mature methods of monitoring needed to detect problems.
 
 Credit goes to all the apps that make Office 365 what it is; including SharePoint and Exchange Online, Skype for Business, Planner, Yammer, Groups, Teams, OneDrive and a handful of others. That vast collection of **cloud services** is available in many countries over the world. And what makes it unique is the harmony between them.
 
@@ -26,7 +26,7 @@ So considering that the software running inside Office 365 is under a **constant
 
 The changes range from minor tweaks to introducing an additional feature that could change the behavior of an app. And the best way to stay in the loop is to monitor the [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=O365).
 
-It details things coming to **Enterprise Mobility & Security**, **Office 365**, and _Windows 10_. It is being updated regularly, and its contents will allow the consumers to plan for the novel behavior.
+It details things coming to _Enterprise Mobility & Security_, **Office 365**, and _Windows 10_. It is being updated regularly, and its contents will allow the consumers to plan for the novel behavior.
 
 ### And What of the Competition?
 
@@ -39,3 +39,11 @@ While it’s not easy to compare each company's subscription plans, they both h
 But there are still incomparable advantages to using one rather than the other. Google might have the edge (pun intended) over the fact that all their apps are cloud based and work well together from the start. But then, Microsoft has wonderful automation features with its PowerShell scripting and APIs for data available through different endpoints. And so on and so forth.
 
 And we have to consider the cost per user per month, which will surely be a decider for some customers. Eventually it will all come down to your specific needs.
+
+### What it's all about?
+
+Writing about this topic is just exploring a work-related domain.
+
+At [SysKit](https://www.syskit.com/?utm_source=backtofrontend&utm_medium=blog_post&utm_campaign=brand_boost), we are all about simplifying governance, administration, and monitoring solutions for Office 365 and SharePoint. Over 3000 companies are using our tools across 70 countries. Helping administrators and consultants to simplify server administration, save time and resources.
+
+Thank you for sticking till the end, see you in the next one :)

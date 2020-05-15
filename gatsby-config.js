@@ -5,7 +5,8 @@ module.exports = {
         title: `Welcome Back to Front End and Beyond`,
         author: {
             name: `Goran Rihter`,
-            summary: `who lives and works in Croatia mostly thinkering with Front End developement and exploring other semi-related interests.`,
+            location: ' who lives in Croatia and works at',
+            summary: `He likes thinkering with Front End developement and exploring other semi-related interests.`,
         },
         description: `A blog exploring the vast world of Front End and other things.`,
         siteUrl: `https://backtofrontend.com/`,

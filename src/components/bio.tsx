@@ -25,6 +25,7 @@ const Bio = () => {
                 siteMetadata {
                     author {
                         name
+                        location
                         summary
                     }
                     social {
@@ -57,11 +58,19 @@ const Bio = () => {
                 }}
             />
             <p>
-                Written by <strong>{author.name}</strong> {author.summary}
+                Written by <strong>{author.name}</strong> {author.location}
                 {` `}
-                <a href={`https://twitter.com/${social.twitter}`}>
-                    You should follow him on Twitter
+                <a
+                    href={`https://www.syskit.com/?utm_source=backtofrontend&utm_medium=blog_post&utm_campaign=brand_boost`}
+                >
+                    SysKit
                 </a>
+                .
+                <br />
+                {author.summary}{' '}
+                {/* <a href={`https://twitter.com/${social.twitter}`}>
+                    You should follow him on Twitter
+                </a> */}
             </p>
         </div>
     )
