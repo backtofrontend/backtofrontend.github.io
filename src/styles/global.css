@@ -1,0 +1,36 @@
+body {
+    --anchorLink: #3273dc;
+    --navbarBackground: #f5f5f5;
+    --navbarColor: #363636;
+    --bg: #fff;
+    --textColor: #222;
+    --inlineCode-bg: #f0da4f33;
+    --inlineCode-text: inherit;
+    --boxShadow1: rgba(0, 0, 0, 0.13);
+    --boxShadow2: rgba(0, 0, 0, 0.19);
+    color: var(--textColor);
+
+    background-color: var(--bg);
+}
+
+body.dark {
+    --anchorLink: #f0da4f;
+    --navbarBackground: #000008;
+    --navbarColor: #fff;
+    --bg: #000008;
+    --textColor: #fff;
+    --boxShadow1: rgba(249, 251, 82, 0.13);
+    --boxShadow2: rgba(232, 248, 85, 0.19);
+    -webkit-font-smoothing: antialiased;
+}
+
+.content blockquote {
+    background-color: var(--navbarBackground);
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content li {
+    color: var(--textColor);
+}
