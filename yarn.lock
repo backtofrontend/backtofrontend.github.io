@@ -2731,6 +2731,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@use-it/event-listener@npm:^0.1.2":
+  version: 0.1.3
+  resolution: "@use-it/event-listener@npm:0.1.3"
+  peerDependencies:
+    react: ^16.8.0
+  checksum: 3/62e757818fa1f3abbfef9688503ba01a8084e29db2431711356d8d8679e2ba587da6804b0eacbe7de4c85dcab56b009dae825c09ae55c6223e1cdf728dec6fb9
+  languageName: node
+  linkType: hard
+
 "@webassemblyjs/ast@npm:1.9.0":
   version: 1.9.0
   resolution: "@webassemblyjs/ast@npm:1.9.0"
@@ -8428,9 +8437,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"gatsby-cli@npm:^2.12.19":
-  version: 2.12.19
-  resolution: "gatsby-cli@npm:2.12.19"
+"gatsby-cli@npm:^2.12.21":
+  version: 2.12.21
+  resolution: "gatsby-cli@npm:2.12.21"
   dependencies:
     "@babel/code-frame": ^7.8.3
     "@babel/runtime": ^7.9.6
@@ -8448,7 +8457,7 @@ fsevents@~2.1.2:
     fs-exists-cached: ^1.0.0
     fs-extra: ^8.1.0
     gatsby-core-utils: ^1.2.2
-    gatsby-recipes: ^0.1.17
+    gatsby-recipes: ^0.1.19
     gatsby-telemetry: ^1.3.4
     hosted-git-info: ^3.0.4
     ink: ^2.7.1
@@ -8481,7 +8490,7 @@ fsevents@~2.1.2:
       optional: true
   bin:
     gatsby: lib/index.js
-  checksum: 3/7a4af0be1a31641de024afe08d59b87e9ac0cfa496ac1f1d148e40291e4d15fc8be5b50989dca434d37c1553825e76baea176c29a019e8fb0b7b662c51e28c6a
+  checksum: 3/2301a50e4a097185f219a0c302c12e58297f1925611556d3fd2ebf689a8dc696f827c6c31dc28bde08ee6f0570b54ae3bb7f2b704bf1aa3b578785931dc98356
   languageName: node
   linkType: hard
 
@@ -8768,6 +8777,20 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-use-dark-mode@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "gatsby-plugin-use-dark-mode@npm:1.1.2"
+  dependencies:
+    prop-types: ^15.7.2
+    terser: ^4.0.0
+  peerDependencies:
+    gatsby: ^2.0.0
+    react: ^16.8.0
+    use-dark-mode: ^2.3.1
+  checksum: 3/f93f3f854ee119b24635e5b8ba6127bef1ad9acdc81690681a1cfc7f7ecac8a28809c86c3f1571840f3de121337fdbc3141b057c9da887efaa894929c1b2ddf1
+  languageName: node
+  linkType: hard
+
 "gatsby-react-router-scroll@npm:^2.3.0":
   version: 2.3.0
   resolution: "gatsby-react-router-scroll@npm:2.3.0"
@@ -8784,9 +8807,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"gatsby-recipes@npm:^0.1.17":
-  version: 0.1.17
-  resolution: "gatsby-recipes@npm:0.1.17"
+"gatsby-recipes@npm:^0.1.19":
+  version: 0.1.19
+  resolution: "gatsby-recipes@npm:0.1.19"
   dependencies:
     "@babel/core": ^7.9.6
     "@babel/generator": ^7.9.6
@@ -8820,6 +8843,7 @@ fsevents@~2.1.2:
     graphql-compose: ^6.3.8
     graphql-subscriptions: ^1.1.0
     graphql-type-json: ^0.3.1
+    hicat: ^0.7.0
     html-tag-names: ^1.1.5
     humanize-list: ^1.0.1
     import-jsx: ^4.0.0
@@ -8850,7 +8874,7 @@ fsevents@~2.1.2:
     urql: ^1.9.7
     ws: ^7.3.0
     xstate: ^4.9.1
-  checksum: 3/f26d14f2c3c4b025907316f91993bdaac1f621a9c5a32b53c629cfc5e1d12768d1a1286d0288ac1f22570a8a95b605dbb5e4fc20014f79555a375990d5b15d01
+  checksum: 3/9236537c46492fd0ecb172f2d74bb3d9dbce367d11a9888ae47c6d4e58b7e4db90559d287d1287c6f363f7628f8b0b811f22e99a29305d2b7d5917ab671b4552
   languageName: node
   linkType: hard
 
@@ -9054,7 +9078,7 @@ fsevents@~2.1.2:
     eslint-config-prettier: ^6.11.0
     eslint-plugin-prettier: ^3.1.3
     gatsby: ^2.21.6
-    gatsby-cli: ^2.12.19
+    gatsby-cli: ^2.12.21
     gatsby-image: ^2.4.0
     gatsby-plugin-feed: ^2.5.0
     gatsby-plugin-google-analytics: ^2.3.0
@@ -9064,6 +9088,7 @@ fsevents@~2.1.2:
     gatsby-plugin-sharp: ^2.6.0
     gatsby-plugin-typescript: ^2.4.0
     gatsby-plugin-typography: ^2.5.0
+    gatsby-plugin-use-dark-mode: ^1.1.2
     gatsby-remark-copy-linked-files: ^2.3.1
     gatsby-remark-images: ^3.3.0
     gatsby-remark-prismjs: ^3.5.0
@@ -9079,6 +9104,7 @@ fsevents@~2.1.2:
     react: ^16.13.1
     react-dom: ^16.13.1
     react-helmet: ^6.0.0
+    react-icons: ^3.10.0
     react-typography: ^0.16.19
     stylelint: ^13.3.3
     stylelint-config-prettier: ^8.0.1
@@ -9095,6 +9121,7 @@ fsevents@~2.1.2:
     typescript: ^3.8.3
     typography: ^0.16.19
     typography-theme-wordpress-2016: ^0.16.19
+    use-dark-mode: ^2.3.1
   languageName: unknown
   linkType: soft
 
@@ -10354,6 +10381,25 @@ fsevents@~2.1.2:
   version: 1.1.0
   resolution: "hex-color-regex@npm:1.1.0"
   checksum: 3/89899f5f74cdef884e352fe8791018f2f112c338b97f3b486f7d5f4760a9c58181f688eb147937f9f2dd69c976a7296b53d1509c9a0871903eeb26a8382e486c
+  languageName: node
+  linkType: hard
+
+"hicat@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "hicat@npm:0.7.0"
+  dependencies:
+    highlight.js: ^8.1.0
+    minimist: ^0.2.0
+  bin:
+    hicat: ./bin/hicat
+  checksum: 3/f4137e60683dc1bbd785c16ffb22774fe47ea71b65d8ab89c8ae9eef368a6ee418a8f326183bf6d631f6ddbeb8a77fc764f055c0c46c2843467589ccc59ad325
+  languageName: node
+  linkType: hard
+
+"highlight.js@npm:^8.1.0":
+  version: 8.9.1
+  resolution: "highlight.js@npm:8.9.1"
+  checksum: 3/3656d2348217f7f15dec9ea5a5528db4d5607818840f11e5a15aee7ef7f92732d0312932aef4db0170d8101c7d5880496b8762329a5fe55ad82d374d8979e389
   languageName: node
   linkType: hard
 
@@ -13448,6 +13494,13 @@ is-whitespace@latest:
   languageName: node
   linkType: hard
 
+"minimist@npm:^0.2.0":
+  version: 0.2.1
+  resolution: "minimist@npm:0.2.1"
+  checksum: 3/ae323ce3fee003746b519141820755a15bc1442c569626c98885f71e23fc51654770d5231ec4136bb302460ca4a4e322915be088b429d83e98917b08b35334f3
+  languageName: node
+  linkType: hard
+
 "minimist@npm:^1.1.0, minimist@npm:^1.1.3, minimist@npm:^1.2.0, minimist@npm:^1.2.5":
   version: 1.2.5
   resolution: "minimist@npm:1.2.5"
@@ -16480,6 +16533,17 @@ is-whitespace@latest:
   languageName: node
   linkType: hard
 
+"react-icons@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "react-icons@npm:3.10.0"
+  dependencies:
+    camelcase: ^5.0.0
+  peerDependencies:
+    react: "*"
+  checksum: 3/848c40d1db512cd58e97507b21a4aebf81df4623495235613186127ddbb96a338e320176d6ef042bb14f619f019fcb23ae35489a7784078fc82e8a1c3c8112ba
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.12.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -19413,6 +19477,19 @@ is-whitespace@latest:
   languageName: node
   linkType: hard
 
+"terser@npm:^4.0.0":
+  version: 4.6.13
+  resolution: "terser@npm:4.6.13"
+  dependencies:
+    commander: ^2.20.0
+    source-map: ~0.6.1
+    source-map-support: ~0.5.12
+  bin:
+    terser: bin/terser
+  checksum: 3/dbb9ff02c2b11341e1525dcffec7a80a25737a64c17719b4ae00aee7585d2742f450692dfec8ee13f0f0ff58136a70fbe280d0a3cb50e14ad92204e9ac65e879
+  languageName: node
+  linkType: hard
+
 "terser@npm:^4.1.2":
   version: 4.6.12
   resolution: "terser@npm:4.6.12"
@@ -20393,6 +20470,29 @@ typescript@^3.8.3:
     graphql: ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
     react: ">= 16.8.0"
   checksum: 3/645a43d0d95925ec9dda2a28db7d865d8bbf797a3d685abcee40b31e792a100d4f4413346a5e0290e6f92e57ce8bfa5e5f551efab629c15f9870b8f155b6786e
+  languageName: node
+  linkType: hard
+
+"use-dark-mode@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "use-dark-mode@npm:2.3.1"
+  dependencies:
+    "@use-it/event-listener": ^0.1.2
+    use-persisted-state: ^0.3.0
+  peerDependencies:
+    react: ^16.8.0
+  checksum: 3/ea12e45eee0025461fcb5f356f0ce46ef668364a10eeca9105a09326c72c943ca849d3a552b81468f4daeafca1a36d12c2813bef9f9d4ee6cc66de3f724d04c3
+  languageName: node
+  linkType: hard
+
+"use-persisted-state@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "use-persisted-state@npm:0.3.0"
+  dependencies:
+    "@use-it/event-listener": ^0.1.2
+  peerDependencies:
+    react: ^16.8.0
+  checksum: 3/e566985e22013e446373518039e46cdca1579710960528bb9631c635f45b69d8eec6f633c06ec263095eea0c65a29f32f12faf22517d79559f643a2aa5bc84d2
   languageName: node
   linkType: hard
 

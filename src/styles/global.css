@@ -13,7 +13,7 @@ body {
     background-color: var(--bg);
 }
 
-body.dark {
+body.dark-mode {
     --anchorLink: #f0da4f;
     --navbarBackground: #000008;
     --navbarColor: #fff;

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import DarkModeToggle from './darkModeToggle'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -62,6 +63,7 @@ const Layout = ({ location, title, children }: LayoutProps) => {
                 padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
             }}
         >
+            <DarkModeToggle />
             <header>{header}</header>
             <main>{children}</main>
             <footer>

@@ -44,8 +44,9 @@ const BlogIndex = ({ data, location }: BlogIndexProps) => {
                                 </Link>
                             </h3>
                             <small>
-                                {node.frontmatter.date} |{' '}
-                                {node.fields.readingTime.text}
+                                On {node.frontmatter.date} |{' '}
+                                {node.fields.readingTime.text} | Updated:{' '}
+                                {node.frontmatter.updated}
                             </small>
                         </header>
                         <section>
@@ -85,6 +86,7 @@ export const pageQuery = graphql`
                     }
                     frontmatter {
                         date(formatString: "MMMM DD, YYYY")
+                        updated(formatString: "MMMM DD, YYYY")
                         title
                         description
                     }

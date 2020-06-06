@@ -1,6 +1,7 @@
 ---
 title: Basic Overview - Bite Sized Office 365
-date: '2020-05-15T22:12:03.284Z'
+date: '2020-05-15'
+updated: '2020-05-16'
 description: 'We will step into the world of Office 365. The following notes resulted from my reading of the book Office 365 for IT Pros. To explore this topic in much greater detail, I highly recommend getting that book. And supporting its original authors :)'
 ---
 
